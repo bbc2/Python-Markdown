@@ -230,7 +230,7 @@ class Markdown(object):
             # Assume string uses dot syntax (`path.to.some.module`)
             module = importlib.import_module(ext_name)
             logger.debug(
-                'Successfuly imported extension module "%s".' % ext_name
+                'Successfully imported extension module "%s".' % ext_name
             )
             # For backward compat (until deprecation)
             # check that this is an extension.
